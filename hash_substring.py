@@ -19,7 +19,7 @@ def read_input():
         text = input()
 
     elif input_choice[0].lower() == "f":
-        file = open(input_choice.split(" ", 1)[1], encoding="utf-8")
+        file = open("./tests/06", encoding="utf-8")
         data = file.readlines()
         pattern = str(data[0])
         text = str(data[1])
